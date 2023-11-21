@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
-<title>tugas31</title>
+<title>tugas</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="serv.css">
