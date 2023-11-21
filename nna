@@ -1,0 +1,56 @@
+.gallery{
+     padding: flex;
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 100px;
+}
+.gallery.row{
+     display: flex;
+}
+.gallery img{
+     display:flex;
+     flex:1;
+     flex-direction:column;
+     padding:0 10px 10px 0;
+}
+.gallery-col{
+     flex-basis: 31%;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     text-align: left;
+}
+.gallery-col img{
+     width: 100%;
+     border-radius: 10px;
+}
+.gallery-col p{
+     padding: 0;
+}
+.gallery-col h3{
+     margin-top: 16px;
+     margin-bottom: 15px;
+}
+
+<!-------gallery------->
+                <section class="gallery">
+                    <h1>Gallery</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus, sapiente culpa perferendis fugit impedit illum eos temporibus modi consectetur, inventore illo suscipit natus, nam deleniti excepturi cum quidem doloribus?</p>
+                    <div class="row">
+                        <div class="gallery-col">
+                            <img src="Img/SpeechENg.jpg">
+                            <h3>Speech English</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cum eveniet aliquam ipsam laborum. Consequuntur fugiat excepturi fugit architecto, incidunt sint. Laudantium sint tenetur qui ab, nemo iste illo cumque?</p>
+                        </div>
+                        <div class="gallery-col">
+                            <img src="Img/SpeechEng2.jpg">
+                            <h3>Speech English</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cum eveniet aliquam ipsam laborum. Consequuntur fugiat excepturi fugit architecto, incidunt sint. Laudantium sint tenetur qui ab, nemo iste illo cumque?</p>
+                        </div>
+                        <div class="gallery-col">
+                            <img src="SpeechENg.jpg">
+                            <h3>Speech English</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cum eveniet aliquam ipsam laborum. Consequuntur fugiat excepturi fugit architecto, incidunt sint. Laudantium sint tenetur qui ab, nemo iste illo cumque?</p>
+                        </div>
+                    </div>
+                </section>        
