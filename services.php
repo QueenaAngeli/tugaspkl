@@ -1,3 +1,5 @@
+<? require
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +50,7 @@
   <div class="panel-body">
     <h3>Feedback</h3>
     <hr>
-    <form name="frm" method="post">
+    <form name="frm" method="post" action="save.php">
         <input type="hidden" id="commentid" name="Pcommentid" value="0">
 	<div class="form-group">
 	  <label for="usr">Write your name:</label>
@@ -58,7 +60,7 @@
       <label for="comment">Write your question:</label>
       <textarea class="form-control" rows="5" name="msg" required></textarea>
     </div>
-	 <input type="button" id="butsave" name="save" class="btn btn-primary" value="Send">
+	 <input type="submit" id="butsave" name="save" class="btn btn-primary" value="Send">
   </form>
   </div>
 </div>
