@@ -1,5 +1,3 @@
-<? require
-?>
 <!DOCTYPE html>
 <html>
 <head>
