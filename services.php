@@ -5,13 +5,14 @@
 <title>tugas</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="serv.css">
+<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script src="main.js"></script>
 </head>
-
+<body>
+  
 <!-- Modal -->
 <div id="ReplyModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -76,52 +77,48 @@
 
 </div>
 
-</body>
-</html>
-
-        <footer class="footer">
-            <div class="footer-box">
-                <div class="f-row">
-                    <div class="footer-col">
-                        <h4>company</h4>
-                        <ul>
-                            <li><a href="#">about us</a></li>
-                            <li><a href="#">our services</a></li>
-                            <li><a href="#">privacy policy</a></li>
-                            <li><a href="#">affiliate program</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>get help</h4>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">shipping</a></li>
-                            <li><a href="#">returns</a></li>
-                            <li><a href="#">order status</a></li>
-                            <li><a href="#">payment options</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>More</h4>
-                        <ul>
-                            <li><a href="#">Portofolio</a></li>
-                            <li><a href="#">About Me</a></li>
-                            <li><a href="#">Gallery</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>follow us</h4>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+<footer class="footer">
+                    <div class="footer-box">
+                        <div class="f-row">
+                            <div class="footer-col">
+                                <h4>company</h4>
+                                <ul>
+                                    <li><a href="#">about us</a></li>
+                                    <li><a href="#">our services</a></li>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">affiliate program</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>get help</h4>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">shipping</a></li>
+                                    <li><a href="#">returns</a></li>
+                                    <li><a href="#">order status</a></li>
+                                    <li><a href="#">payment options</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>More</h4>
+                                <ul>
+                                    <li><a href="#">Portofolio</a></li>
+                                    <li><a href="#">About Me</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div> 
-       </footer>
+               </footer>
                         
 </body>
 
