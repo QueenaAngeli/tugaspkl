@@ -1,6 +1,6 @@
 <?php
 include 'conn.php';
-$id = $_POST['id'];
+$id = $_GET['id'];
 $name = $_POST['name'];
 $msg = $_POST['msg'];
 if($name != "" && $msg != ""){
