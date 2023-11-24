@@ -63,12 +63,31 @@
   </div>
 </div>
   
-
+</div>
 <div class="panel panel-default">
   <div class="panel-body">
-    <h4>Recent questions</h4>           
+    <h4>Recent questions</h4>          
 	<table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
-	  <tbody id="record">
+	  <tbody id="record"> 
+    <?php
+      include 'conn.php';
+
+      $select ="SELECT parent_comment, student, post, date from discussion";
+      $result = $conn-> query($select);
+      while ($row = $result->fetch_assoc()) {
+      }
+    if($result-> num_rows > 0){
+      while ($row = $result->fetch_assoc()){
+        echo "<tr><td>". "</td><td>". "<tr><td>". $row['parent_comment'] ."</td><td>". "<tr><td>". $row['post']."</td><td>". "<tr><td>".$row['date'] ."</td><td>";
+      }
+      echo "</table>";
+    }
+    else {
+      echo "0 result";
+    }
+
+    $conn-> close();
+    ?>
 		
 	  </tbody>
 	</table>
