@@ -64,36 +64,98 @@
 </div>
   
 </div>
-<div class="panel panel-default">
+
+<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-15">
+
+				<div class="card">
+					<div class="card-header">
+
+<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-15">
+
+				<div class="card">
+					<div class="card-header">
+						<h4>Recent Question</h4>
+					</div>
+
+
+					<div class="card-body">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Question</th>
+									<th>Date</th>
+								</tr>
+							</thead>
+							<tbody>
+							<?php 
+								$con = mysqli_connect("localhost","root","","tugas");
+
+								$query = "SELECT * FROM discussion";
+								$query_run = mysqli_query($con, $query);
+
+								if(mysqli_num_rows($query_run) > 0)
+								{
+									foreach($query_run as $row)
+                                    {
+                                    ?>
+                                    <tr>
+										<td><?= $row['student']; ?></td>
+										<td><?= $row['post']; ?></td>
+										<td><?= $row['date']; ?></td>
+								    </tr>
+                                    <?php
+									}
+								        } 
+								        else {
+									            echo "No Record Found";
+								             } 
+							        ?>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+
+<!-- <div class="panel panel-default">
   <div class="panel-body">
     <h4>Recent questions</h4>          
 	<table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
 	  <tbody id="record"> 
-    <?php
-      include 'conn.php';
+    
+    //   include 'conn.php';
 
-      $select ="SELECT parent_comment, student, post, date from discussion";
-      $result = $conn-> query($select);
-      while ($row = $result->fetch_assoc()) {
-      }
-    if($result-> num_rows > 0){
-      while ($row = $result->fetch_assoc()){
-        echo "<tr><td>". "</td><td>". "<tr><td>". $row['parent_comment'] ."</td><td>". "<tr><td>". $row['post']."</td><td>". "<tr><td>".$row['date'] ."</td><td>";
-      }
-      echo "</table>";
-    }
-    else {
-      echo "0 result";
-    }
+    //   $select ="SELECT parent_comment, student, post, date from discussion";
+    //   $result = $conn-> query($select);
+    //   while ($row = $result->fetch_assoc()) {
+    //   }
+    // if($result-> num_rows > 0){
+    //   while ($row = $result->fetch_assoc()){
+    //     echo "<tr><td>". "</td><td>". "<tr><td>". $row['parent_comment'] ."</td><td>". "<tr><td>". $row['post']."</td><td>". "<tr><td>".$row['date'] ."</td><td>";
+    //   }
+    //   echo "</table>";
+    // }
+    // else {
+    //   echo "0 result";
+    // }
 
-    $conn-> close();
-    ?>
+    // $conn-> close();
+  
 		
 	  </tbody>
 	</table>
   </div>
-</div>
-
+</div> -->
+          </div>
 </div>
 
 <footer class="footer">
