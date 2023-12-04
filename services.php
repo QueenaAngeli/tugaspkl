@@ -10,6 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/1f4332e1b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
@@ -92,7 +93,7 @@
 								</tr>
 							</thead>
 							<tbody>
-							<?php 
+              <?php 
 								$con = mysqli_connect("localhost","root","","tugas");
 
 								$query = "SELECT * FROM discussion";
@@ -122,43 +123,20 @@
 			</div>
 		</div>
 	</div>
+</div>
+        </div>
+
+<br>
+<br>
+<br>
+<br>
+
 
     <!-- Bootstrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
 
-<!-- <div class="panel panel-default">
-  <div class="panel-body">
-    <h4>Recent questions</h4>          
-	<table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
-	  <tbody id="record"> 
-    
-    //   include 'conn.php';
 
-    //   $select ="SELECT parent_comment, student, post, date from discussion";
-    //   $result = $conn-> query($select);
-    //   while ($row = $result->fetch_assoc()) {
-    //   }
-    // if($result-> num_rows > 0){
-    //   while ($row = $result->fetch_assoc()){
-    //     echo "<tr><td>". "</td><td>". "<tr><td>". $row['parent_comment'] ."</td><td>". "<tr><td>". $row['post']."</td><td>". "<tr><td>".$row['date'] ."</td><td>";
-    //   }
-    //   echo "</table>";
-    // }
-    // else {
-    //   echo "0 result";
-    // }
-
-    // $conn-> close();
-  
-		
-	  </tbody>
-	</table>
-  </div>
-</div> -->
-          </div>
-</div>
-
-<footer class="footer">
+  <footer class="footer">
                     <div class="footer-box">
                         <div class="f-row">
                             <div class="footer-col">
@@ -200,6 +178,40 @@
                         </div>
                     </div>
                </footer>
+
+<!-- <div class="panel panel-default">
+  <div class="panel-body">
+    <h4>Recent questions</h4>          
+	<table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
+	  <tbody id="record"> 
+    
+    //   include 'conn.php';
+
+    //   $select ="SELECT parent_comment, student, post, date from discussion";
+    //   $result = $conn-> query($select);
+    //   while ($row = $result->fetch_assoc()) {
+    //   }
+    // if($result-> num_rows > 0){
+    //   while ($row = $result->fetch_assoc()){
+    //     echo "<tr><td>". "</td><td>". "<tr><td>". $row['parent_comment'] ."</td><td>". "<tr><td>". $row['post']."</td><td>". "<tr><td>".$row['date'] ."</td><td>";
+    //   }
+    //   echo "</table>";
+    // }
+    // else {
+    //   echo "0 result";
+    // }
+
+    // $conn-> close();
+  
+		
+	  </tbody>
+	</table>
+  </div>
+</div> -->
+          <!-- </div>
+</div> -->
+
+
                         
 </body>
 
