@@ -12,6 +12,7 @@
 	<script src="main.js"></script>
     <script src="https://kit.fontawesome.com/1f4332e1b8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   
 <!-- Modal -->
@@ -136,8 +137,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
 
 
-  <footer class="footer">
-                    <div class="footer-box">
+<!-- footer class="footer"> -->
+                    <!-- <div class="footer-box">
                         <div class="f-row">
                             <div class="footer-col">
                                 <h4>company</h4>
@@ -177,7 +178,7 @@
                             </div>
                         </div>
                     </div>
-               </footer>
+               </footer> -->
 
 <!-- <div class="panel panel-default">
   <div class="panel-body">

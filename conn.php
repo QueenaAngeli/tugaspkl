@@ -1,10 +1,13 @@
 <?php
-session_start();
-$db_username = 'root';
-$db_password = '';
-$conn = new PDO( 'mysql:host=localhost;dbname=tugas', $db_username, $db_password );
-if(!$conn){
-die("Fatal Error: Connection Failed!");
-}
+$servername = "localhost";
+$database = "tugas";
+$username = "root";
+$password = "";
 
+$conn = mysqli_connect($servername, $username, $password, $database);
+if (!$conn){
+    die("koneksi gagal" . mysqli_connect_error());
+} else {
+    echo "Koneksi berhasil";
+}
 ?>
